@@ -46,7 +46,6 @@
                 <div class="text-center">
                   <button type="submit" class="btn btn-ekram my-1" style="width: 100%">تسجيل الدخول</button>
                   <a href="{{route('registration')}}" class="btn btn-danger" style="width:100%;margin-left:.5rem">انشاء حساب جديد</a>
-                  <a href="{{route('registration')}}" style="width:100%;margin-left:.5rem">نسيت كلمة السر؟</a>
                 </div>
               </form>
             </div>
