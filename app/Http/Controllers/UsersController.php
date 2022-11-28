@@ -216,15 +216,6 @@ class UsersController extends Controller
      */
     public function destroy($id)
     {
-        $user = User::findorFail($id);
-
-        
-        //then Delete User
-        $user->email =  Hash::make($user->email);
-        $user->password = Hash::make('xyz@zyx');
-        $user->status = 5;
-        $user->save();
-        Session::flash('نجاح', 'تم حذف المستخدم');
         return redirect(route('users.index'));
     }
 }
